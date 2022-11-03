@@ -6,15 +6,17 @@ use Illuminate\Http\Request;
 
 class NewsController extends Controller
 {
+    public function index()
+    {
+        return view('news');
+    }
+
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        //
-    }
+
 
     /**
      * Show the form for creating a new resource.
