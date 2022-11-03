@@ -45,8 +45,8 @@
                     </svg>
                 </div>
 
-                <a href="/home">home</a>
-                <a href="/news">news</a>
+                <a href="{{route('about.index')}}">about</a>
+                <a href="{{route('news.index')}}">news</a>
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
